@@ -21,7 +21,7 @@ class ProductRepository {
     fun getProductsRealTime(onChange: (List<Product>) -> Unit) {
         db.collection("products")
             .whereEqualTo("userId", userId())
-            .orderBy("name", Query.Direction.ASCENDING)
+            // Quitamos el orderBy temporalmente
             .addSnapshotListener { snap, _ ->
                 if (snap != null) {
                     val lista = snap.toObjects(Product::class.java)
