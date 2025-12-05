@@ -1,0 +1,31 @@
+MVVM:
+Es un patrón de arquitectura que separa la aplicación en tres capas:
+- Model: contiene los datos, repositorios y acceso a Firebase.
+- View: son las pantallas construidas con Jetpack Compose. No tienen lógica.
+- ViewModel: maneja la lógica, estados y comunicación con el repositorio usando StateFlow.
+MVVM hace el código más ordenado, fácil de mantener y más escalable.
+
+Firebase Auth:
+Servicio de autenticación de Firebase que permite registrar e iniciar sesión con email y contraseña.
+La app usa Auth para obtener el UID del usuario, y con ese UID se asocian los productos dentro de Firestore.
+Sin Auth no se podría identificar qué productos pertenecen a cada usuario.
+
+Firestore:
+Base de datos NoSQL en tiempo real.
+Permite guardar documentos automáticamente en colecciones y escuchar cambios en vivo con snapshotListener.
+En la app, los productos se guardan en la colección "products" y se filtran usando el UID.
+Firestore actualiza la lista sin que el usuario tenga que refrescar manualmente.
+
+Jetpack Compose:
+Framework moderno de UI para Android usando funciones composables.
+La interfaz se construye de forma declarativa, reactiva y con manejo automático de estados.
+Permite crear pantallas rápidas, limpias y modulares sin XML.
+Toda la UI de ProductManager está diseñada en Compose.
+
+CRUD:
+Representa las operaciones básicas Create, Read, Update y Delete.
+Create → Registrar un nuevo producto en Firestore.
+Read → Leer en tiempo real los productos del usuario.
+Update → Editar un producto existente.
+Delete → Eliminar un documento de la colección.
+La app implementa el CRUD completo para los productos.

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217132227410",
+    "project_id": "productmanager-jimenezc24b",
+    "storage_bucket": "productmanager-jimenezc24b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217132227410:android:4c94df0b5751564696f88b",
+        "android_client_info": {
+          "package_name": "com.jimenez.product"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Z12_11PDIgmGu7VfVPwuXcH_rkI9Wu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

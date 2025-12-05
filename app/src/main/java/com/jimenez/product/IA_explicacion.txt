@@ -1,0 +1,24 @@
+Uso de IA en el desarrollo del proyecto:
+
+La Inteligencia Artificial se utilizó como una herramienta de apoyo durante el desarrollo del proyecto ProductManager_JimenezC24B. El objetivo fue acelerar el proceso, resolver dudas técnicas y mejorar la organización del código sin reemplazar el trabajo del estudiante.
+
+Las tareas donde la IA brindó apoyo fueron:
+- Propuesta de arquitectura MVVM aplicable al proyecto.
+- Generación de ejemplos de ViewModel, Repository y pantallas Jetpack Compose.
+- Corrección de errores en Gradle, dependencias y estructura del paquete.
+- Explicaciones sobre buenas prácticas con Firebase Auth y Firestore.
+- Creación de los archivos conceptos.txt e IA_EXPLICACION.txt.
+- Asesoría para mantener orden y claridad en las pantallas Compose.
+
+Tareas realizadas por el estudiante:
+- Configuración del proyecto en Android Studio.
+- Implementación manual del código sugerido.
+- Integración con Firebase, incluyendo google-services.json.
+- Pruebas, corrección de errores, ajustes de la UI y validaciones finales.
+- Comprensión del funcionamiento de Firestore, autenticación y estados en Compose.
+- Preparación del repositorio final para entrega.
+
+Uso responsable:
+La IA no generó el proyecto completo automáticamente. El estudiante revisó, adaptó y comprendió cada parte antes de integrarla. Todas las secciones se ejecutaron de forma consciente para asegurar que el proyecto sea entendible, funcional y demostrable.
+
+Autor: Fabrizio Jiménez
